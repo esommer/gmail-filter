@@ -1,0 +1,9 @@
+<p>Here's your results, friend: <em class="sidenote">(either copy, paste &amp; save the text below into an XML file or download the file with the button below.)</em><br />
+	<pre><%= escape_html @output %></pre>
+</p>
+<form method="POST" action="/download">
+	<input type="hidden" value="<%= escape_html @output %>" name="write_data" />
+	<button class="download" type="submit" value="Download XML File">Download XML File</button>
+</form>
+<p>Once you've got your shiny XML file:
+	<ul><li>open your gmail, </li><li>click the gear in the upper-ish right-hand side of your inbox,</li> <li>click "settings", </li><li>click "filters", </li><li>scroll to the bottom, </li><li>click "import filters", </li><li>select your new XML file, </li><li>(probably check "apply filter to existing email"), and </li><li>press go/submit/yes/now! </li></ul><b>Then click "Save Changes", and you should be good to go.</b></p>

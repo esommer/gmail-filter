@@ -1,0 +1,164 @@
+body {
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size: 1.2em;
+	line-height: 1.15em;
+	background-color: #fffef9;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #333;
+}
+a:link, a:visited, a:hover, a:active {
+	color: #48447c;
+	text-decoration: none;
+}
+h1 a:link {
+	color: inherit;
+}
+p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+ul,li {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	margin-bottom: 10px;
+}
+li {
+	margin-left: 50px;
+}
+.g {
+	font-size: 1.5em;
+	color: #E04942;
+	font-weight: bold;
+	vertical-align: top;
+	font-family: Georgia, serif;
+}
+.label {
+	background-color: #eee;
+	padding: 3px 6px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	color: #111;
+}
+h1 {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 3em;
+	color: #444;
+}
+h3 {
+	color: #666;
+	text-align: center;
+	margin-top: 50px;
+	font-style: italic;
+	font-weight: normal;
+}
+h4 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.1em;
+	margin-bottom: 5px;
+}
+footer {
+	text-align: center;
+	padding: 30px;
+	font-size: .9em;
+	font-weight: 300;
+	border-top: 1px solid #ddd;
+	margin-top: 20px;
+	color: #555;
+	clear: both;
+}
+p.explain {
+	color: #666;
+	font-size: .9em;
+	line-height: 1.1em;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+em.sidenote {
+	color: #888;
+	font-size: .9em;
+}
+div.sidebar {
+	width: 20%;
+	float: right;
+	margin-left: 50px;
+	font-size: .8em;
+	line-height: 1.15em;
+	background-color: #eee;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	padding: 25px;
+	margin-bottom: 30px;
+}
+p.example {
+	font-family: Monaco, monospace;
+	font-size: .7em;
+	margin-left: 30px;
+	width: 63%;
+	line-height: 1.2em;
+}
+span.thought {
+	line-height: 1.3em;
+	font-weight: bold;
+}
+div.form {
+	margin-left: 35px;
+	width: 65%;
+}
+label {
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 2px;
+}
+textarea {
+	margin-top: 8px;
+	width: 100%;
+	height: 200px;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	background-color: #fff;
+}
+button.go {
+	background-color: #5EB00F;
+	width: 20%;
+	height: 40px;
+	border: 1px solid #429200;
+	border-radius: 4px;
+	font-size: 1.3em;
+	margin-top: 8px;
+	float: right;
+}
+button.download {
+	float: right;
+	margin-right: 5%;
+	height: 40px;
+	font-size: 1.1em;
+	background-color: #5EB00F;
+	border: 1px solid #429200;
+	border-radius: 4px;
+	padding: 0px 10px 0px 10px;
+}
+span.comment {
+	color: #aaa;
+}
+pre {
+	display: block;
+	font-size: .8em;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #aaa;
+	border-radius: 4px;
+	background-color: #fff;
+	padding: 15px;
+	line-height: 1.2em;
+}

@@ -1,0 +1,20 @@
+<h3>It's a bird! It's a plane! Nope. It's a <span class="g">G</span>mail <span class="label">Filter</span> Maker!</h3>
+<p class="explain">This 'lil guy takes Gmail labels and any email addresses or search terms you want labeled accordingly and <b>outputs an XML file containing all requisite Gmail Filters to do the heavy lifting (massive amounts of clicking) for you</b>. <br /><em class="sidenote">(You still have to input it into Gmail's Filter in your Settings, but that's easy -- I'll tell you how below!)</em></p>
+<div class="sidebar">
+	<h4>The Backstory:</h4>
+	<p>Once in a land far, far, away, on a dark, stormy night... <em>I was trying to organize my gmail:</em> <br />I found that if I wanted to associate <b>several email addresses and search terms with a particular gmail label</b>, I had to make a LOT of gmail filters: <br /><ul><li>one matching incoming emails, </li><li>one matching outgoing emails, </li><li>one matching search terms. </li></ul>Okay, so three, still a LOT, especially if you want to categorize <em>these</em> emails with <em>that</em> label and <em>those</em> emails with <em>that other</em> label. <b>Tedious!</b></p>
+	<p>Around the same time, a handsome fellow told me about the wonders of Ruby and gave me a link to <a href="http://google.com" title="Why's Guide to Ruby">Why's Poignant Guide to Ruby</a>, which I devoured (slowly, didn't want to choke). Looking for a way to "puts" this new language into my brain, I thought, <br /><span class="thought">"Ha! I'll make a 'lil <span class="g">G</span>mail <span class="label">Filter</span> Maker!"</span> And so I did.</p>
+</div><!-- close of div.sidebar -->
+<h4>To Use:</h4>
+<p>Make a return-separated list of values where the first words are the label name, then a colon (:) then a list of emails you want associated with that label, separated by commas (,) then [OPTIONAL] a pipe (|) followed by any search terms you want associated with that label, each set of terms in double quotes, ("") separated by commas (,). <b>EXAMPLE:</b></p>
+<p class="example"><b>mylabel:</b> someemail@website.com, anotheremail@innernette.com, more@theweb.gov <b>|</b> "search for this", "and for this" <br /><span class="comment">[press ENTER to add more lines -- this 'lil maker will do all the work for you in one go!]<br />//Comments begin with two forward slashes (//) and end when you hit [RETURN]</span></p>
+<p>Once you've entered your text like so, hit "GO". You will be given the text which you can copy and paste into an XML file or a downloadable XML file (OR an error if you or I did anything wrong. Apologies!).</p>
+<div class="form">
+	<form method="POST" action="/gmail_app_backend">
+		<label for="formtext">Type yo' text here please:</label><br />
+		<textarea name="formtext" row='200' columns='500'></textarea><br />
+		<button class="go" type="submit" value="GO!">GO!</button>
+	</form>
+</div><!-- close div.form -->
+<p>Once you've got your shiny XML file:
+	<ul><li>open your gmail, </li><li>click the gear in the upper-ish right-hand side of your inbox,</li> <li>click "settings", </li><li>click "filters", </li><li>scroll to the bottom, </li><li>click "import filters", </li><li>select your new XML file, </li><li>(probably check "apply filter to existing email"), and </li><li>press go/submit/yes/now! </li></ul><b>Then click "Save Changes", and you should be good to go.</b></p>
