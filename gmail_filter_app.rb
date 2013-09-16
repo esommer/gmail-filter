@@ -1,7 +1,7 @@
 #testapp.rb
 require 'rubygems'
 require 'sinatra'
-require 'gmail.rb'
+require 'gmail'
 
 helpers do
   def escape_html(text)
