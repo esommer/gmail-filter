@@ -16,3 +16,6 @@ Separate entries with a return, press "Go!", and you get back some slick XML tha
 
 ###Future:
 This was my first go at Ruby and with using Sinatra and Heroku. Needless to say, there's much improvement that could be done. For example, it would be great to model the filters with a class or something -- right now they are just plain ole' text. I should also OBVIOUSLY be cleaning user input. Heh. My apologies!
+
+##License:
+Use and abuse! Do what you will with this.
